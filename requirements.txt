@@ -1,0 +1,5 @@
+openai-whisper==20250625
+streamlit>=1.40
+requests>=2.31
+numpy>=1.26
+torch>=2.0

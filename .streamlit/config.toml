@@ -1,0 +1,9 @@
+[server]
+# Headless: there is no browser inside WSL to open. WSL2 forwards localhost, so
+# the app is reachable at http://localhost:8501 from Windows.
+headless = true
+address = "0.0.0.0"
+port = 8501
+
+[browser]
+gatherUsageStats = false
